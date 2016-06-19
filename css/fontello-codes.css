@@ -1,5 +1,5 @@
 
-.icon-twitter-squared:before { content: '\e800'; } /* '' */
-.icon-github-squared:before { content: '\e801'; } /* '' */
-.icon-gplus-squared:before { content: '\e802'; } /* '' */
-.icon-steam-squared:before { content: '\e803'; } /* '' */
+.icon-github:before { content: '\e800'; } /* '' */
+.icon-gplus:before { content: '\e801'; } /* '' */
+.icon-steam:before { content: '\e802'; } /* '' */
+.icon-twitter:before { content: '\e804'; } /* '' */

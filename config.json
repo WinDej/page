@@ -7,27 +7,27 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "0ece9a12de796b8411f868d582bee678",
-      "css": "github-squared",
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2ec1790207a8ba67a7192c6af1eafec4",
+      "css": "steam",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b8d0c7d76e87b94882329a88e8e43d3d",
+      "css": "gplus",
       "code": 59393,
       "src": "fontawesome"
     },
     {
-      "uid": "727544621cb891115c99b4a4cfed01df",
-      "css": "steam-squared",
-      "code": 59395,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "906348dc798a0d42715cc97c875e3ac6",
-      "css": "twitter-squared",
+      "uid": "5e0a374728ffa8d0ae1f331a8f648231",
+      "css": "github",
       "code": 59392,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "f0cf7db1b03cb65adc450aa3bdaf8c4d",
-      "css": "gplus-squared",
-      "code": 59394,
       "src": "fontawesome"
     }
   ]
