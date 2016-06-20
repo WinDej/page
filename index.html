@@ -6,25 +6,35 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/fontello.css">
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="scripts/git.js" type="text/javascript"></script>
+	<script type="text/javascript">
+    $(function() {
+        $("#my-github-projects").loadRepositories("WinDej");
+    });
+	</script>
 </head>
 <body>
 	<header>
 	   <div class="header-wrapper">
 		  <div class="header-wrapper-logo">
-			 WinDej
+			 <div class="first">WinDej</div>
+			 <div class="second">Paweł Żochowski</div>
 		  </div>
 	   </div>
 	</header>
 	<main>
+		<h1>Repositories</h1>
+		<div class="labels">
+			<div class="name">Name</div>
+			<div class="language">Lang</div>
+			<div class="description">Description</div>
+			<div class="update">Updated</div>
+			<div class="cls"></div>
+		</div>
+		<div id="my-github-projects"></div>
 		
 		
-		<p>Nullam fringilla suscipit magna at laoreet. Donec et nisi dapibus, interdum dui vitae, hendrerit quam. Nulla convallis pharetra urna, in eleifend libero faucibus quis. Nam ac elit commodo, pharetra diam eu, interdum magna. Nulla consectetur odio a nulla viverra mattis at non urna. Morbi eget massa justo. Morbi eu lorem vitae urna malesuada commodo. Ut sed odio purus.</p>
-
-		<p>Sed urna diam, molestie ut dolor eget, euismod porttitor ligula. Aenean vitae dapibus diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin et volutpat velit. Nam semper diam et nisl iaculis, at bibendum ex congue. Vestibulum feugiat, ipsum in vehicula accumsan, sapien ligula lacinia enim, sit amet vehicula felis metus ac nibh. Curabitur lectus mauris, iaculis sed tortor et, posuere pretium nunc. Sed lacinia metus erat, in posuere tortor finibus eget. Vestibulum sed arcu efficitur, semper est et, fermentum diam. Pellentesque rhoncus dolor quis eros faucibus scelerisque. Duis feugiat tortor sit amet sollicitudin consectetur. Aenean in condimentum libero.</p>
-
-		<p>In tristique nibh leo, vitae maximus tellus auctor non. Nam ac consectetur nisl, a condimentum nunc. Cras ut sagittis est. Suspendisse in semper arcu. Quisque dictum, ante in fermentum volutpat, sapien lacus lacinia elit, eget sagittis neque diam et erat. Nullam sit amet ipsum neque. Morbi vitae eros porta, aliquam odio id, maximus ligula. Duis porta libero et eleifend porta. Aliquam hendrerit tortor non porttitor faucibus. Morbi risus metus, aliquam eget aliquet eu, interdum id nulla. Sed at facilisis urna, sit amet mattis velit. Pellentesque malesuada vitae tellus non congue.</p>
-
-		<p>Nunc sed sem viverra, condimentum ipsum ac, varius velit. Nulla tempus lacinia pharetra. Integer sodales sodales mollis. Sed quis nunc a justo faucibus ornare vitae at magna. Vivamus laoreet rutrum gravida. Pellentesque dignissim sem nec pulvinar fermentum. Integer efficitur augue et magna tristique fringilla. Donec quam eros, scelerisque finibus tincidunt sit amet, blandit ultrices sapien. Nulla molestie diam vel nulla lacinia, non volutpat nisi mollis. In quis lacus sit amet ipsum porttitor placerat vel eget diam. Curabitur facilisis ullamcorper nisi, quis ultricies felis vestibulum et. Donec rhoncus id velit in scelerisque. Maecenas interdum leo non nisl lobortis iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 	</main>
 	<div class="buttons">
 	   	<div class="buttons-wrapper">
@@ -38,20 +48,12 @@
 					<i class="icon-twitter"></i>
 				</div>
 			</a>
-			<a href="http://steamcommunity.com/id/windej/">
-				<div class="steam">
-				   	<i class="icon-steam"></i>
-				</div>
-			</a>
-			<a href="https://plus.google.com/117921290462440023446">
-				<div class="gplus">
-				 	<i class="icon-gplus"></i>
-				</div>
-			</a>
+			<div class="cls"></div>
 	   	</div>	
 	</div>
 	<footer>
 		&copy; WinDej@github.com
 	</footer>
+	
 </body>
 </html>

@@ -55,7 +55,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-twitter:before { content: '\e800'; font-size: 100px; margin-top: 75px;} /* '' */
-.icon-github:before { content: '\e801'; font-size: 100px; margin-top: 75px;} /* '' */
-.icon-gplus:before { content: '\e802'; font-size: 100px; margin-top: 75px;} /* '' */
-.icon-steam:before { content: '\e803'; font-size: 100px; margin-top: 75px;} /* '' */
+.icon-twitter:before { content: '\e800'; font-size: 100px; margin-top: 55px;} /* '' */
+.icon-github:before { content: '\e801'; font-size: 100px; margin-top: 55px;} /* '' */
+.icon-gplus:before { content: '\e802'; font-size: 100px; margin-top: 55px;} /* '' */
+.icon-steam:before { content: '\e803'; font-size: 100px; margin-top: 55px;} /* '' */

@@ -4,8 +4,9 @@ html, body {
 }
 
 body {
-	background-color: rgb(230, 230, 230);
-	font-family: 'Poiret One', cursive
+	background-color: rgb(40, 40, 40);
+	font-family: 'Poiret One', cursive;
+	min-width: 915px;
 }
 
 a {
@@ -13,34 +14,70 @@ a {
 	text-decoration: none;
 }
 
+dt a {
+	color: black;
+}
+
 header {
    	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: rgb(150, 150, 150);
+	min-width: 915px;
+	background-color: rgb(60, 60, 60);
 	text-align: center;
 }
 
 .header-wrapper{
-	width: 1000px;
+	width: 60%;
 	margin: 0 auto;
 }
 
 .header-wrapper-logo{
-	width: 200px;
+	overflow: hidden;
+	width: 120px;
+	height: 46px;
 	font-size: 40px;
 	font-weight: 700;
-	background-color: rgb(0, 100, 200);
+	background-color: rgb(0, 150, 220);
 	padding: 20px;
+	text-align: left;
+	transition: all 0.5s;
 }
 
+.header-wrapper-logo:hover {
+	width: 280px;
+}
+
+.header-wrapper-logo:hover .first{
+	left: 300px;
+}
+
+.header-wrapper-logo:hover .second{
+	left: 0px;
+}
+
+.first{
+	position: relative;
+	left: 0;
+	transition: all 0.5s;
+}
+
+.second{
+	position: relative;
+	width: 280px;
+	top: -46px;
+	left: -300px;
+	transition: all 0.5s;
+}
+
+
 main {
-	width: 1000px;
+	width: 60%;
 	margin: auto;
 	margin-top: 86px;
 	padding: 20px;
 	text-align: justify;
-	background-color: rgb(256, 256, 256);
+	background-color: rgb(220, 220, 220);
 	box-sizing: border-box;
 }
 
@@ -48,20 +85,22 @@ main {
 	width: 100%;
 	text-align: center;
 	height: 250px;
-	background-color: rgb(180, 180, 180);
-	color: #fff;
+	margin-bottom: 38px;
 }
 
 .buttons-wrapper {
-	width: 1000px;
+	width: 50%;
 	height: 250px;
 	margin: 0 auto;
 }
 
 .git {
    	float: left;
-	height: 250px;
-	width: 250px;
+   	margin: 2%;
+	height: 210px;
+	width: 45%;
+	min-width: 210px;
+	background-color: rgb(100, 100, 100);
 	transition: background-color 0.5s;
 }
 
@@ -71,8 +110,11 @@ main {
 
 .twitter{
    	float: left;
-	height: 250px;
-	width:250px;
+   	margin: 2%;
+	height: 210px;
+	width: 45%;
+	min-width: 210px;
+	background-color: rgb(100, 100, 100);
 	transition: background-color 0.5s;
 }
 
@@ -80,32 +122,50 @@ main {
 	background-color: #1da1f2;
 }
 
-.steam {
-	float: left;
-	height: 250px;
-	width: 250px;
-	transition: background-color 0.5s;
+.cls {
+	clear: both;
 }
-
-.steam:hover {
-	background-color: #2d415d;
-}
-
-.gplus {
-	float: left;
-	height: 250px;
-	width: 250px;
-	transition: background-color 0.5s;
-}
-
-.gplus:hover {
-	background-color: #d73d32;
-}
-
 
 footer{
+	position: fixed;
+	bottom: 0;
 	width:100%;
+	min-width: 915px;
 	text-align: center;
 	padding: 10px;
-	background-color: rgb(150, 150, 150);
+	color: rgb(255, 255, 255);
+	background-color: rgb(60, 60, 60);
+}
+
+.labels{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.list-position{
+	padding: 5px;
+	border-top: 1px solid black;
+}
+
+.name{
+	float:left;
+	text-align: left;
+	width: 150px;
+	font-weight: 700;
+}
+
+.language{
+	float:left;
+	text-align: left;
+	width: 50px;
+}
+
+.description{
+	float:left;
+	text-align: left; 
+}
+
+.update{
+	float:right;
+	text-align: left; 	
 }
