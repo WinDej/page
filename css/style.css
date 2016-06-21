@@ -14,8 +14,12 @@ a {
 	text-decoration: none;
 }
 
-dt a {
-	color: black;
+.name a {
+	color: rgb(20, 20, 20);
+}
+
+.name a:hover {
+	color: rgb(0, 150, 220);
 }
 
 header {
@@ -140,6 +144,7 @@ footer{
 .labels{
 	font-weight: 700;
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .list-position{
@@ -157,7 +162,7 @@ footer{
 .language{
 	float:left;
 	text-align: left;
-	width: 50px;
+	width: 100px;
 }
 
 .description{
