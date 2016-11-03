@@ -1,176 +1,176 @@
-html, body {
-   margin: 0;
-   padding: 0;
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	background-color: rgb(40, 40, 40);
-	font-family: 'Poiret One', cursive;
-	min-width: 915px;
+    background-color: rgb(40, 40, 40);
+    font-family: 'Poiret One', cursive;
+    min-width: 915px;
 }
 
 a {
-   	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .name a {
-	color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
 }
 
 .name a:hover {
-	color: rgb(0, 150, 220);
+    color: rgb(0, 150, 220);
 }
 
 header {
-   	position: fixed;
-	top: 0;
-	width: 100%;
-	min-width: 915px;
-	background-color: rgb(60, 60, 60);
-	text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 915px;
+    background-color: rgb(60, 60, 60);
+    text-align: center;
 }
 
-.header-wrapper{
-	width: 60%;
-	margin: 0 auto;
+.header-wrapper {
+    width: 60%;
+    margin: 0 auto;
 }
 
-.header-wrapper-logo{
-	overflow: hidden;
-	width: 120px;
-	height: 46px;
-	font-size: 40px;
-	font-weight: 700;
-	background-color: rgb(0, 150, 220);
-	padding: 20px;
-	text-align: left;
-	transition: all 0.5s;
+.header-wrapper-logo {
+    overflow: hidden;
+    width: 120px;
+    height: 46px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgb(0, 150, 220);
+    padding: 20px;
+    text-align: left;
+    transition: all 0.5s;
 }
 
 .header-wrapper-logo:hover {
-	width: 280px;
+    width: 280px;
 }
 
-.header-wrapper-logo:hover .first{
-	left: 300px;
+.header-wrapper-logo:hover .first {
+    left: 300px;
 }
 
-.header-wrapper-logo:hover .second{
-	left: 0px;
+.header-wrapper-logo:hover .second {
+    left: 0px;
 }
 
-.first{
-	position: relative;
-	left: 0;
-	transition: all 0.5s;
+.first {
+    position: relative;
+    left: 0;
+    transition: all 0.5s;
 }
 
-.second{
-	position: relative;
-	width: 280px;
-	top: -46px;
-	left: -300px;
-	transition: all 0.5s;
+.second {
+    position: relative;
+    width: 280px;
+    top: -46px;
+    left: -300px;
+    transition: all 0.5s;
 }
-
 
 main {
-	width: 60%;
-	margin: auto;
-	margin-top: 86px;
-	padding: 20px;
-	text-align: justify;
-	background-color: rgb(220, 220, 220);
-	box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+    margin-top: 86px;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(220, 220, 220);
+    box-sizing: border-box;
 }
 
 .buttons {
-	width: 100%;
-	text-align: center;
-	height: 250px;
-	margin-bottom: 38px;
+    width: 100%;
+    text-align: center;
+    height: 250px;
+    margin-bottom: 38px;
 }
 
 .buttons-wrapper {
-	width: 50%;
-	height: 250px;
-	margin: 0 auto;
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
 }
 
 .git {
-   	float: left;
-   	margin: 2%;
-	height: 210px;
-	width: 45%;
-	min-width: 210px;
-	background-color: rgb(100, 100, 100);
-	transition: background-color 0.5s;
+    float: left;
+    margin: 2%;
+    height: 210px;
+    width: 45%;
+    min-width: 210px;
+    background-color: rgb(100, 100, 100);
+    transition: background-color 0.5s;
 }
 
-.git:hover{
-	background-color: #913399;
+.git:hover {
+    background-color: #913399;
 }
 
-.twitter{
-   	float: left;
-   	margin: 2%;
-	height: 210px;
-	width: 45%;
-	min-width: 210px;
-	background-color: rgb(100, 100, 100);
-	transition: background-color 0.5s;
+.twitter {
+    float: left;
+    margin: 2%;
+    height: 210px;
+    width: 45%;
+    min-width: 210px;
+    background-color: rgb(100, 100, 100);
+    transition: background-color 0.5s;
 }
 
-.twitter:hover{
-	background-color: #1da1f2;
+.twitter:hover {
+    background-color: #1da1f2;
 }
 
 .cls {
-	clear: both;
+    clear: both;
 }
 
-footer{
-	position: fixed;
-	bottom: 0;
-	width:100%;
-	min-width: 915px;
-	text-align: center;
-	padding: 10px;
-	color: rgb(255, 255, 255);
-	background-color: rgb(60, 60, 60);
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-width: 915px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 60);
 }
 
-.labels{
-	font-weight: 700;
-	font-size: 20px;
-	margin-bottom: 10px;
+.labels {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.list-position{
-	padding: 5px;
-	border-top: 1px solid black;
+.list-position {
+    padding: 5px;
+    border-top: 1px solid black;
 }
 
-.name{
-	float:left;
-	text-align: left;
-	width: 150px;
-	font-weight: 700;
+.name {
+    float: left;
+    text-align: left;
+    width: 150px;
+    font-weight: 700;
 }
 
-.language{
-	float:left;
-	text-align: left;
-	width: 100px;
+.language {
+    float: left;
+    text-align: left;
+    width: 100px;
 }
 
-.description{
-	float:left;
-	text-align: left; 
+.description {
+    float: left;
+    text-align: left;
 }
 
-.update{
-	float:right;
-	text-align: left; 	
+.update {
+    float: right;
+    text-align: left;
 }
