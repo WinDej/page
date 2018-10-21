@@ -18,9 +18,15 @@ html, body{
 }
 
 .name{
+	float: none;
 	display: inline-block;
 	padding-right: 20px;
-	border-right: 4px solid rgb(34, 170, 161);
+	/* border-right: 4px solid rgb(34, 170, 161); */
+}
+
+.buttons{
+	clear: both;
+	font-size: 40px;
 }
 
 a{
@@ -28,6 +34,10 @@ a{
 	padding: 5px;
 }
 
-a:active{
+a:hover{
 	color: rgb(76, 224, 210);
+}
+
+a:active{
+	color: rgb(8, 146, 165)
 }
